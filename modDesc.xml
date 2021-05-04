@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="51">
+	<author>loki_79</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Controlled Traffic Farming</en>
+        <de>Kontrollierter Verkehr Farming</de>
+        <fr>L'Agriculture À Circulation Contrôlée</fr>
+    </title>
+    <description>
+<en><![CDATA[Controlled Traffic Farming is a management tool that is used to limit the soil compaction caused by heavy or repeated machinery passes over the land.  With this mod soil compaction is simulated by applying a plowing requirement where heavy vehicles have been driven.
+
+To get the most out of this mod it is recommended that you adopt a CTF system on your farm.  For maximum efficiency, your sprayer should be at least three times the working width of your other equipment.  The primary tramlines for the sprayer can be used by all equipment and will remain permanently compacted.  You can then save time by subsoiling only the secondary vehicle tracks prior to seeding.  Don't forget to ensure that your harvester can reach over to the next tramline with the auger.  
+
+Features:
+- Soil is compacted by any vehicles with a weight greater than 6.5 tonnes
+- Compacted soil must be plowed or subsoiled to achieve full yield
+- The yield reduction for any land that requires plowing is now 30%
+- The plowing requirement after harvesting root crops or corn is no longer applied
+
+Important:
+- Please be aware that vehicles driven by the AI will also cause soil compaction on your fields
+- The 'Periodic Plowing Required' game setting will disable soil compaction for all vehicles and remove the yield penalty as usual
+- The yield of grass is not affected by soil compaction, but you must plow before planting subsequent crops to achieve maximum yield.
+]]>
+</en>
+<de><![CDATA[Kontrolliertes Verkehrs-Farming ist ein Management-Tool, das verwendet wird, um die Bodenverdichtung zu begrenzen, die durch schwere oder wiederholte Maschinenüberfahrten auf dem Land verursacht wird.  Mit diesem Mod wird die Bodenverdichtung simuliert, indem eine Pflugpflicht dort angewendet wird, wo schwere Fahrzeuge gefahren sind.
+
+Um den größtmöglichen Nutzen aus diesem Mod zu ziehen, wird empfohlen, dass Sie auf Ihrem Betrieb ein CTF-System einsetzen.  Für maximale Effizienz sollte Ihre Spritze mindestens die dreifache Arbeitsbreite Ihrer anderen Geräte haben.  Die primären Fahrgassen für die Spritze können von allen Geräten genutzt werden und bleiben dauerhaft verdichtet.  Sie können dann Zeit sparen, indem Sie vor der Aussaat nur die sekundären Fahrzeugspuren unterpflügen.  Vergessen Sie nicht, darauf zu achten, dass Ihr Harvester mit der Schnecke bis zur nächsten Fahrgasse heranreichen kann.  
+
+Merkmale:
+- Boden wird von allen Fahrzeugen mit einem Gewicht von mehr als 6,5 Tonnen verdichtet
+- Verdichteter Boden muss gepflügt oder untergepflügt werden, um den vollen Ertrag zu erzielen
+- Die Ertragsminderung für alle Flächen, die gepflügt werden müssen, beträgt jetzt 30 %
+- Das Pflügen nach der Ernte von Hackfrüchten oder Mais ist nicht mehr erforderlich
+
+Wichtig!
+- Bitte beachten Sie, dass Fahrzeuge, die von der KI gefahren werden, auch auf Ihren Feldern Bodenverdichtungen verursachen
+- Die Spieleinstellung "Regelmäßiges Pflügen erforderlich" deaktiviert die Bodenverdichtung für alle Fahrzeuge und entfernt wie gewohnt den Ertragsabzug
+- Der Ertrag von Gras wird von der Bodenverdichtung nicht beeinflusst, aber Sie müssen vor dem Anpflanzen von Folgefrüchten pflügen, um einen maximalen Ertrag zu erzielen.
+]]>
+</de>
+<fr><![CDATA[L'agriculture à circulation contrôlée est un outil de gestion qui sert à limiter le compactage du sol causé par les passages de machines lourdes ou répétés sur le terrain.  Avec ce mod, le compactage du sol est simulé en appliquant une obligation de labourage là où des véhicules lourds ont circulé.
+
+Pour tirer le meilleur parti de ce mod, il est recommandé d'adopter un système CTF dans votre exploitation.  Pour une efficacité maximale, votre pulvérisateur doit avoir une largeur de travail au moins trois fois supérieure à celle de vos autres équipements.  Les voies primaires du pulvérisateur peuvent être utilisées par tous les équipements et resteront en permanence compactées.  Vous pouvez alors gagner du temps en ne sous-solant que les voies secondaires des véhicules avant de semer.  N'oubliez pas de vous assurer que votre moissonneuse peut atteindre la voie de passage suivante avec la tarière.  
+
+Caractéristiques :
+- Le sol est compacté par tout véhicule dont le poids est supérieur à 6,5 tonnes.
+- Le sol compacté doit être labouré ou sous-solé pour obtenir un rendement maximal.
+- La réduction du rendement pour toute terre qui doit être labourée est maintenant de 30 %.
+- L'obligation de labourer après la récolte de plantes racines ou de maïs n'est plus appliquée.
+
+Important :
+- Sachez que les véhicules conduits par l'IA provoquent également le compactage du sol dans vos champs.
+- Le paramètre de jeu "Labour périodique obligatoire" désactive le compactage du sol pour tous les véhicules et supprime la pénalité de rendement habituelle.
+- Le rendement de l'herbe n'est pas affecté par le compactage du sol, mais vous devez labourer avant de planter les cultures suivantes pour obtenir un rendement maximal.
+]]>
+</fr>
+    </description>
+	
+	<multiplayer supported="true" />
+	<iconFilename>modIcon.dds</iconFilename>
+	<extraSourceFiles>
+		<sourceFile filename="ControlledTrafficFarming.lua" />
+	</extraSourceFiles>
+	
+	<!--l10n-->
+		<!--k="setting_plowingRequired" v="Periodic Plowing Required"/-->
+		<!--text name="setting_soilCompaction">
+			<en>Soil Compaction</en>
+			<de>Bodenverdichtung</de>
+			<fr>Compactage Du Sol</fr>
+		</text-->
+		<!--k="toolTip_plowingRequired" v="Whether or not you need to plow your fields periodically to keep yield high."/-->
+		<!--text name="toolTip_soilCompaction">
+			<en>Prevents any new soil compaction from being applied and disables the 30% yield penalty</en>
+			<de>Verhindert die Anwendung neuer Bodenverdichtungen und deaktiviert die 30% ige Ertragsstrafe</de>
+			<fr>Empêche tout nouveau compactage du sol et annule la pénalité de rendement de 30%</fr>
+		</text-->
+	<!--/l10n-->
+</modDesc>
