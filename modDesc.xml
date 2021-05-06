@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="51">
+<modDesc descVersion="53">
 	<author>loki_79</author>
     <version>1.0.0.0</version>
 	<title>
         <en>Controlled Traffic Farming</en>
-        <de>Kontrollierter Verkehr Farming</de>
-        <fr>L'Agriculture À Circulation Contrôlée</fr>
     </title>
     <description>
 <en><![CDATA[Controlled Traffic Farming is a management tool that is used to limit the soil compaction caused by heavy or repeated machinery passes over the land.  With this mod soil compaction is simulated by applying a plowing requirement where heavy vehicles have been driven.
@@ -24,15 +22,15 @@ Important:
 - The yield of grass is not affected by soil compaction, but you must plow before planting subsequent crops to achieve maximum yield.
 ]]>
 </en>
-<de><![CDATA[Kontrolliertes Verkehrs-Farming ist ein Management-Tool, das verwendet wird, um die Bodenverdichtung zu begrenzen, die durch schwere oder wiederholte Maschinenüberfahrten auf dem Land verursacht wird.  Mit diesem Mod wird die Bodenverdichtung simuliert, indem eine Pflugpflicht dort angewendet wird, wo schwere Fahrzeuge gefahren sind.
+<de><![CDATA[Controlled Traffic Farming ist ein Management-Tool, das dazu dient, die Bodenverdichtung zu begrenzen, die durch schwere oder wiederholte Maschinenüberfahrten auf dem Land verursacht wird. Mit diesem Mod wird die Bodenverdichtung simuliert, indem eine Pfluganforderung angewendet wird, wo schwere Fahrzeuge gefahren sind.
 
-Um den größtmöglichen Nutzen aus diesem Mod zu ziehen, wird empfohlen, dass Sie auf Ihrem Betrieb ein CTF-System einsetzen.  Für maximale Effizienz sollte Ihre Spritze mindestens die dreifache Arbeitsbreite Ihrer anderen Geräte haben.  Die primären Fahrgassen für die Spritze können von allen Geräten genutzt werden und bleiben dauerhaft verdichtet.  Sie können dann Zeit sparen, indem Sie vor der Aussaat nur die sekundären Fahrzeugspuren unterpflügen.  Vergessen Sie nicht, darauf zu achten, dass Ihr Harvester mit der Schnecke bis zur nächsten Fahrgasse heranreichen kann.  
+Um das Beste aus diesem Mod herauszuholen, wird empfohlen, dass Sie ein CTF-System in Ihrem Betrieb einführen. Für maximale Effizienz sollte Ihre Spritze mindestens die dreifache Arbeitsbreite Ihrer anderen Geräte haben. Die primären Fahrgassen für die Spritze können von allen Geräten genutzt werden und bleiben dauerhaft verdichtet. Sie können dann Zeit sparen, indem Sie vor der Aussaat nur die sekundären Fahrzeugspuren unterpflügen. Vergessen Sie nicht, darauf zu achten, dass Ihr Mähdrescher mit Entladerohr bis zur nächsten Fahrgasse reicht.
 
 Merkmale:
 - Boden wird von allen Fahrzeugen mit einem Gewicht von mehr als 6,5 Tonnen verdichtet
 - Verdichteter Boden muss gepflügt oder untergepflügt werden, um den vollen Ertrag zu erzielen
 - Die Ertragsminderung für alle Flächen, die gepflügt werden müssen, beträgt jetzt 30 %
-- Das Pflügen nach der Ernte von Hackfrüchten oder Mais ist nicht mehr erforderlich
+- Das Pflügen nach der Ernte von Wurzelfrüchten oder Mais ist nicht mehr erforderlich
 
 Wichtig!
 - Bitte beachten Sie, dass Fahrzeuge, die von der KI gefahren werden, auch auf Ihren Feldern Bodenverdichtungen verursachen

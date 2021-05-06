@@ -170,7 +170,7 @@ end
 
 function ControlledTrafficFarming:update(dt)
 	if not self.initialised then
-		print("*** Controlled Traffic Farming is loaded ***")
+		--print("*** Controlled Traffic Farming is loaded ***")
 		--for name, fruitType in pairs(g_fruitTypeManager.nameToFruitType) do
 		for _, fruitType in ipairs(g_fruitTypeManager:getFruitTypes()) do
 			fruitType.increasesSoilDensity = false
